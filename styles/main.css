@@ -53,7 +53,7 @@ table {
   height: 700px;
 }
 .photo-section-1 .logo {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Montserrat", sans-serif;
   position: absolute;
   top: 48px;
@@ -1006,9 +1006,9 @@ hr {
 @media (max-width: 320px) {
   .photo-section-1 {
     background-image: url(../img/2img/Background3.png);
-    height: 550px;
+    height: 540px;
     width: 320px;
-    margin-left: 15px;
+    margin-left: 0px;
   }
   .photo-section-1 .logo {
     position: absolute;
@@ -1045,11 +1045,12 @@ hr {
   .photo-section-1 .find-button {
     position: absolute;
     top: 357px;
-    left: 36px;
+    left: 15px;
     width: 280px;
   }
   .section-2 {
     height: 3170px;
+    width: 320px;
     background-color: #fff;
   }
   .second-block {
