@@ -1149,7 +1149,10 @@ hr {
 
 @media screen and (max-width: 320px) {
 main{
-    width: 320px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
     .photo-section-1 {
@@ -1359,7 +1362,7 @@ main{
         &__photo2 {
             position: absolute;
             top: 1655px;
-            left: 297px;
+            left: 317px;
 
             h2 {
                 margin-top: 14px;
@@ -1378,7 +1381,7 @@ main{
             margin-top: 55px;
             position: absolute;
             top: 1655px;
-            left: 50px;
+            left: 72px;
 
             p {
                 margin-top: 28px;
@@ -1390,7 +1393,7 @@ main{
             height: 225px;
             position: absolute;
             top: 2407px;
-            left: -197px;
+            left: -176px;
 
             h2 {
                 width: 240px;
@@ -1405,7 +1408,7 @@ main{
         }
 
         &__button {
-            margin-top: 733px;
+            margin-top: 753px;
             margin-left: 10px;
             width: 280px;
             height: 40px;
