@@ -1006,9 +1006,9 @@ hr {
     width: 768px;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   main{
-    width: 380px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
