@@ -767,6 +767,9 @@ hr {
 }
 
 @media screen and (max-width: 767px) {
+  main{
+    width: 320px;
+  }
   .photo-section-1 {
     background-image: url(../img/2img/Background.png);
   }
@@ -1004,6 +1007,9 @@ hr {
   }
 }
 @media screen and (max-width: 320px) {
+  main{
+    width: 320px;
+  }
   .photo-section-1 {
     background-image: url(../img/2img/Background3.png);
     height: 540px;

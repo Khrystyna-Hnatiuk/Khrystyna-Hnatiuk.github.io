@@ -822,8 +822,10 @@ hr {
 
 
 @media screen and (max-width:767px) {
-    
-} {
+    main{
+        width: 320px;
+    }
+ 
     .photo-section-1 {
         background-image: url(../img/2img/Background.png);
 
@@ -1141,12 +1143,14 @@ hr {
         margin-top: 145px;
         width: 768px;
     }
-
 }
 
 
-@media screen and (max-width: 320px) {
 
+@media screen and (max-width: 320px) {
+main{
+    width: 320px;
+}
 
     .photo-section-1 {
         background-image: url(../img/2img/Background3.png);
@@ -1573,10 +1577,6 @@ hr {
         margin-top: 40px;
         width: 320px;
     }
-
-
-
-
 
 
 }
