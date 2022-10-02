@@ -823,11 +823,12 @@ hr {
 
 @media screen and (max-width:767px) {
     main{
-        width: 320px;
+        width: 100%;
     }
  
     .photo-section-1 {
         background-image: url(../img/2img/Background.png);
+        width: 100%;
 
         .logo {
             position: absolute;
@@ -1149,7 +1150,7 @@ hr {
 
 @media screen and (max-width: 400px) {
 main{
-    width: 400px;
+    width: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1159,7 +1160,7 @@ main{
         background-image: url(../img/2img/Background3.png);
         height: 540px;
         width: 320px;
-        margin-left: 0;
+        margin-left: 15px;
       
         .logo {
             position: absolute;
@@ -1362,7 +1363,7 @@ main{
         &__photo2 {
             position: absolute;
             top: 1655px;
-            left: 317px;
+            left: 287px;
 
             h2 {
                 margin-top: 14px;
@@ -1381,7 +1382,7 @@ main{
             margin-top: 55px;
             position: absolute;
             top: 1655px;
-            left: 72px;
+            left: 40px;
 
             p {
                 margin-top: 28px;
@@ -1393,7 +1394,7 @@ main{
             height: 225px;
             position: absolute;
             top: 2407px;
-            left: -176px;
+            left: -206px;
 
             h2 {
                 width: 240px;
