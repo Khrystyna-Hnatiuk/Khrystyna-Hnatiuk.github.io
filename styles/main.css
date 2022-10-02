@@ -766,7 +766,7 @@ hr {
   margin-top: -98px;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .photo-section-1 {
     background-image: url(../img/2img/Background.png);
   }
@@ -1003,7 +1003,7 @@ hr {
     width: 768px;
   }
 }
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .photo-section-1 {
     background-image: url(../img/2img/Background3.png);
     height: 540px;

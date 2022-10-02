@@ -821,7 +821,9 @@ hr {
 
 
 
-@media (max-width:767px) {
+@media screen and (max-width:767px) {
+    
+} {
     .photo-section-1 {
         background-image: url(../img/2img/Background.png);
 
@@ -1143,7 +1145,7 @@ hr {
 }
 
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
 
 
     .photo-section-1 {
