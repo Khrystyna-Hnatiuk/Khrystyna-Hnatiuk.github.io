@@ -179,7 +179,6 @@ h1 {
     background-position-x: right;
     margin-top: -20px;
     background-size: 750px;
-    border: 2px solid palegreen;
 
 }
 
@@ -345,12 +344,13 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     overflow-y: hidden;
-    float: left;
+    /* float: left; */
     margin-top: 200px;
+    margin-left: 10%;
 }
 
 .block-4s {
-    width: 300px;
+    width: 280px;
     height: 450px;
     /* border: 2px solid lightcoral; */
     margin-left: 40px;
