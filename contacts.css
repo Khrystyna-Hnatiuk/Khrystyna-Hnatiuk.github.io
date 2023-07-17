@@ -1388,7 +1388,7 @@ height: 1700px;
 top: 0;                       
 position: absolute;
 color: #FFFFFF;
-display: block;
+display: none;
 overflow: hidden;
 }
 
