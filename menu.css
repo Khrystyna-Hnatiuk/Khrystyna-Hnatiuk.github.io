@@ -449,7 +449,7 @@ a{
     color: #FFFFFF;
 }
                                         
-                                        #newMenu{
+                                        .newMenu{
                                             /* background-color: #334601; */
                                             z-index: 9;
                                             width: 100%;
@@ -552,7 +552,7 @@ opacity: 0.4;
 
                        
                        
-                       #openLogoMenu{
+                       .openLogoMenu{
                            background-image: url(Imagelogo.png);
                            background-repeat: no-repeat;
                            background-size: cover;
@@ -650,4 +650,8 @@ opacity: 0.4;
     .new-button:hover{
         opacity: 0.6;
         transition-duration: 0.7s;
+    }
+
+    .display{
+        display: block;
     }

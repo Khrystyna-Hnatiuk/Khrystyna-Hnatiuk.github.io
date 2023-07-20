@@ -455,7 +455,7 @@ footer {
 
 
    
-#newMenuBlogs {
+.newMenuBlogs {
     z-index: 9;
     width: 100%;
     height: 1080px;
@@ -569,7 +569,7 @@ opacity: 0.4;
 
 
   
-#openlogoBlog{
+.openlogoBlog{
     background-image: url(Imagelogo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -679,3 +679,6 @@ transition-duration: 0.7s;
 
 
 
+.display{
+    display: block;
+}

@@ -26,7 +26,6 @@ body {
     width: 100%;
     background-image: url(contact.img/main.png);
     background-repeat: no-repeat;
-    border: 2px solid olive;
     background-size: cover;
 }
 
@@ -499,7 +498,7 @@ footer {
 
 
                                    
-                                   #newMenuContact{
+                                   .newMenuContact{
                                        /* background-color: #334601; */
                                        z-index: 9;
                                        width: 100%;
@@ -610,7 +609,7 @@ opacity: 0.4;
 
                       
                            
-                      #openLogoMenu{
+                      .openLogoMenu{
                           background-image: url(Imagelogo.png);
                           background-repeat: no-repeat;
                           background-size: cover;
@@ -812,6 +811,7 @@ body {
     margin-top: 230px;
     position: absolute;
     left: 80px;
+    /* text-align: center; */
     float: right;
 }
 
@@ -1030,6 +1030,7 @@ b {
 
 form{
     margin-top: 300px;
+    margin-left: -20px;
 }
 
 .input-FN{
@@ -1263,12 +1264,10 @@ footer {
 
 
 
-#newMenuContact{
-    /* background-color: #334601; */
+.newMenuContact{
     z-index: 9;
-    width: 100%;
+    width: 480px;
     height: 1380px;
-    /* margin-top: -370px; */
     position: absolute;
     top: 0;
     color: #FFFFFF;
@@ -1277,13 +1276,13 @@ footer {
     display: none;
     background-image: url(jsmenuimg.png);
     background-size: cover;
-    border: 2px solid darkblue;
     overflow: hidden;
     
 }
 .newimg{
 
 height: 1580px;
+margin-top: 0;
 
 
 }
@@ -1377,11 +1376,11 @@ opacity: 0.4;
 
 
 
-#openLogoMenu{
+.openLogoMenu{
 background-image: url(Imagelogo.png);
 background-repeat:no-repeat;
 background-size: cover;
-width: 100%;
+width: 480px;
 z-index: 9;
 /* width: 100%; */
 height: 1700px;
@@ -1496,4 +1495,8 @@ transition-duration: 0.7s;
 
 
 
+}
+
+.display{
+    display: block;
 }

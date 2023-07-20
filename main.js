@@ -1,55 +1,95 @@
 function ViewMenu(){
 
-let n = document.getElementById('new');
-n.style.display='block';
+// let n = document.getElementById('new');
+// n.style.display='block';
+document.querySelector('.new').classList.add('display')
+let close =document.querySelector('.close-new').addEventListener('click',function(){
+    document.querySelector('.new').classList.remove('display')
 
-
+})
 }
-
-
 function openlogo(){
-     document.getElementById('openLogo').style.display='block';
+     document.querySelector('.openLogo').classList.add('display');
     // m.style.display='block';
+     document.querySelector('.new-logo').addEventListener('click',function(){
+    document.querySelector('.openlogo').classList.remove('display')
+
+})
 }
+
+
 
 function ViewMenuNew(){
-document.getElementById('newMenu').style.display='block'
+document.querySelector('.newMenu').classList.add('display');
+document.querySelector('.close-new').addEventListener('click',function(){
+    document.querySelector('.newMenu').classList.remove('display')
+})
 }
-
 
 function openLogoNew(){
-document.getElementById('openLogoMenu').style.display='block'
+document.querySelector('.openLogoMenu').classList.add('display');
+document.querySelector('.logo-img.new-logo').addEventListener('click',function(){
+    document.querySelector('.openLogoMenu').classList.remove('display')
+
+})
+
+    
 }
 
+
+
 function openlogoCont(){
-    document.getElementById('openLogoMenu').style.display='block'
+    document.querySelector('.openLogoMenu').classList.add('display');
+    document.querySelector('.logo-img.new-logo').addEventListener('click',function(){
+        document.querySelector('.openLogoMenu').classList.remove('display')
+    })
 }
 
 function ViewMenuCont(){
-    document.getElementById('newMenuContact').style.display='block'
-
+    document.querySelector('.newMenuContact').classList.add('display');
+    document.querySelector('.close-new').addEventListener('click',function(){
+        document.querySelector('.newMenuContact').classList.remove('display')
+    })
 }
+
+
 
 
 
 function openlogoAbout(){
-    document.getElementById('openLogoAbout').style.display='block'
+    document.querySelector('.openLogoAbout').classList.add('display');
+    document.querySelector('.logo-img.new-logo').addEventListener('click',function(){
+        document.querySelector('.openLogoAbout').classList.remove('display')
+    })
 
 }
 
 function ViewMenuAbout(){
-    document.getElementById('newMenuAbout').style.display='block'
-    
+    document.querySelector('.newMenuAbout').classList.add('display');
+    document.querySelector('.close-new').addEventListener('click',function(){
+        document.querySelector('.newMenuAbout').classList.remove('display')
+    })
 }
 
+
+
+
+
 function ViewMenuBlogs(){
-    document.getElementById('newMenuBlogs').style.display='block'
-    
+document.querySelector('.newMenuBlogs').classList.add('display')
+    document.querySelector('.close-new').addEventListener('click',function(){
+    document.querySelector('.newMenuBlogs').classList.remove('display')
+
+})
 }
 
 function openLogoBlogs(){
-    document.getElementById('openlogoBlog').style.display='block'
+document.querySelector('.openlogoBlog').classList.add('display');
+
+    document.querySelector('.new-logo').addEventListener('click',function(){
+        document.querySelector('.openlogoBlog').classList.remove('display')
     
+    })    
 }
 
 
