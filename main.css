@@ -528,11 +528,11 @@ h1 {
 
 .buttons-s6 {
     margin-top: 100px;
-    width: 99%;
+    width: 80%;
     /* margin-left: 5%; */
     /* margin-left: 0.5%; */
     /* border: 2px solid magenta; */
-    margin-left:0.5% ;
+    margin-left:10% ;
 }
 
 option {
@@ -1538,7 +1538,7 @@ a{
     .s5-arrow {
         color: black;
         position: relative;
-        left: 400px;
+        left: 480px;
         top: -60px;
     }
     
