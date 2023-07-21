@@ -8,14 +8,33 @@ let close =document.querySelector('.close-new').addEventListener('click',functio
 
 })
 }
+
 function openlogo(){
      document.querySelector('.openLogo').classList.add('display');
     // m.style.display='block';
-     document.querySelector('.new-logo').addEventListener('click',function(){
-    document.querySelector('.openlogo').classList.remove('display')
+  let close=   document.querySelector('.new-logo').addEventListener('click',function(){
+    document.querySelector('.openLogo').classList.remove('display')
 
 })
 }
+
+function showMenu(){
+    document.querySelector('.new').classList.add('display')
+}
+function showMenu2(){
+    document.querySelector('.newMenuContact').classList.add('display')
+}
+
+function showAbout(){
+    document.querySelector('.newMenuAbout').classList.add('display')
+}
+function showmenu(){
+    document.querySelector('.newMenu').classList.add('display')
+}
+function showBlog(){
+    document.querySelector('.newMenuBlogs').classList.add('display')
+}
+
 
 
 
@@ -95,20 +114,20 @@ document.querySelector('.openlogoBlog').classList.add('display');
 
 
 
-function setscrollBy(){
-    window.scrollBy(0,2800);
-    const windScroll=window.pageYOffset;
-    console.log(windScroll);
-}
 // function setscrollBy(){
-//     window.scrollTo({
-// top:2800,
-// left: 0,
-// behavior:'smooth'
-//     })
+//     window.scrollBy(0,2800);
+//     const windScroll=window.pageYOffset;
+//     console.log(windScroll);
+// }
+function setscrollBy(){
+    window.scrollTo({
+top:2800,
+left: 0,
+behavior:'smooth'
+    })
 //     // const windScroll=window.pageYOffset;
 //     // console.log(windScroll);
-// }
+}
 
 // function setscrollBy(top){
 //     let sectSelected = document.querySelector('.section-3');
