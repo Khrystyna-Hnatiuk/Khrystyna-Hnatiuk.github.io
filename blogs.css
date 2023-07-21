@@ -716,9 +716,9 @@ transition-duration: 0.7s;
 
     html {
 
-        width: 414px;
-        max-width: 414px;
-        overflow-x: hidden;
+        width: 100%;
+        max-width: 100%;
+        /* overflow-x: hidden; */
         /* border: 2px solid firebrick; */
     }
     
@@ -732,7 +732,8 @@ transition-duration: 0.7s;
         box-sizing: border-box;
         width: 100%;
         max-width: 100%;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
+        
     }
     
     
