@@ -711,14 +711,13 @@ transition-duration: 0.7s;
 
 @media (max-width:414px){
 
-   
     
 
     html {
 
-        width: 100%;
-        max-width: 100%;
-        /* overflow-x: hidden; */
+        width: 414px;
+        max-width: 414px;
+        overflow-x: hidden;
         /* border: 2px solid firebrick; */
     }
     
@@ -730,9 +729,9 @@ transition-duration: 0.7s;
          font: inherit; 
          vertical-align: baseline; 
         box-sizing: border-box;
-        width: 100%;
+        width: 414px;
         max-width: 100%;
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
         
     }
     
@@ -807,11 +806,11 @@ transition-duration: 0.7s;
     .under-text {
         color: #FFFFFF;
         font-family: 'Rufina';
-        margin-left: 30px;
+        margin-left: 20px;
         margin-top: -30px;
         text-align: center;
         font-size: 20px;
-        width: 390px;
+        width: 380px;
         font-weight: normal;
     
     }
@@ -846,13 +845,13 @@ transition-duration: 0.7s;
     .blocks{
         margin-top: -800px;
         /* border: 2px solid khaki; */
-        width: 100%;
+        width: 414px;
         display: flex;
         flex-wrap: wrap;
         height: 7000px;
     }
     .first-sect {
-        width: 100%;
+        width: 414px;
         height: 1250px;
         margin-left: 0px;
         /* margin-top: 30px; */
@@ -861,7 +860,7 @@ transition-duration: 0.7s;
     
     }
     .second-sect {
-        width: 100%;
+        width: 414px;
         height: 1250px;
         margin-top: 180px;
 
@@ -870,7 +869,7 @@ transition-duration: 0.7s;
         background-repeat: no-repeat;
     
     }.third-sect {
-        width: 100%;
+        width: 414px;
         height: 1250px;
         margin-left: 0px;
         margin-top: 180px;
@@ -879,7 +878,7 @@ transition-duration: 0.7s;
         background-repeat: no-repeat;
     
     }.fourth-sect {
-        width: 100%;
+        width: 414px;
         height: 1250px;
         margin-left: 0px;
         margin-top: 180px;
@@ -888,7 +887,7 @@ transition-duration: 0.7s;
         background-repeat: no-repeat;
     
     }.fifth-sect {
-        width: 100%;
+        width: 414px;
         height: 1250px;
         margin-left: 0px;
         background-image: url(blogs.img/Feature\ Image5.png);
@@ -897,7 +896,7 @@ transition-duration: 0.7s;
 
     
     }.sixth-sect {
-        width: 100%;
+        width: 414px;
         height: 1250px;
         margin-top: 180px;
 
@@ -937,7 +936,7 @@ transition-duration: 0.7s;
     }
     
     .line-img {
-        width: 440px;
+        width: 414px;
     }
     
     .img-avatar {
@@ -1179,7 +1178,7 @@ transition-duration: 0.7s;
     
     
     .main-text {
-        width: 700px;
+        width: 400px;
         height: 200px;
         position: absolute;
         right: 100px;
@@ -1424,7 +1423,7 @@ transition-duration: 0.7s;
     position: absolute;
     top: 800px;
     left: 0px;
-    width: 900px;
+    width: 300px;
     overflow: hidden;
     }
     
