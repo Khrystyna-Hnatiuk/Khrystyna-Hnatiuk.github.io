@@ -918,7 +918,7 @@ z-index: 10;
 .coming{
     position: absolute;
     top: 200px;
-    left: 290px;
+    left: 390px;
     font-size: 80px;
 color: #FFFFFF;
 font-family: 'Rufina';
@@ -928,7 +928,7 @@ font-family: 'Rufina';
 .blockings{
 position: absolute;
 top: 460px;
-left: 100px;
+left: 200px;
 display: flex;
 flex-wrap: wrap;
 
